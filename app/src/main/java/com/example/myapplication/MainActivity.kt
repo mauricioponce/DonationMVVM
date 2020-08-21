@@ -1,14 +1,15 @@
 package com.example.myapplication
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.widget.Toast
-import androidx.lifecycle.Observer
+import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
+import com.example.myapplication.viewmodel.DonationOk
+import com.example.myapplication.viewmodel.DonationViewModel
+import com.example.myapplication.viewmodel.EmptyDonation
+import com.example.myapplication.viewmodel.InvalidAmount
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.activity_main.*
-import java.lang.Exception
 
 
 class MainActivity : AppCompatActivity() {

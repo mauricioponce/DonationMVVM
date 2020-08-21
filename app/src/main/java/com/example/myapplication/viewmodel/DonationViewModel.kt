@@ -4,10 +4,6 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.example.myapplication.model.DonationModel
 
-sealed class ViewStatus
-data class DonationOk(var amount: Int): ViewStatus()
-object EmptyDonation: ViewStatus()
-object InvalidAmount: ViewStatus()
 
 class DonationViewModel: ViewModel() {
     private val max = 30

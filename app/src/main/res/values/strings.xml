@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DonationMVP</string>
+    <string name="error_message">El valor no es válido</string>
+    <string name="confirmation_message">Gracias por su donación!</string>
+</resources>
